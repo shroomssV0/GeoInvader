@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eed3d45e-0a11-4678-96f3-384915dabe8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../App/bin/Debug/net8.0/GeoInvader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../App/bin/Debug/net8.0/GeoInvader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/bin/Debug/net8.0/GeoInvader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../App/bin/Debug/net8.0/GeoInvader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/GeoInvader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/ref/GeoInvader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/ref/GeoInvader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/obj/Debug/net8.0/refint/GeoInvader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../App/obj/Debug/net8.0/refint/GeoInvader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/14.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geoinvader/src/CanvasComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/geoinvader/src/CanvasComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/.idea/.idea.GeoInvaderAPI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/.idea/.idea.GeoInvaderAPI.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvaderAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvaderAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvaderAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/bin/Debug/net8.0/GeoInvaderAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/GeoInvaderAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/ref/GeoInvaderAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/ref/GeoInvaderAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/refint/GeoInvaderAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/Debug/net8.0/refint/GeoInvaderAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/GeoInvaderAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/GeoInvaderAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/GeoInvaderAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/GeoInvaderAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../GeoInvader.API/GeoInvaderAPI/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cbO3vnXXfsbkOGA2UqFomKqxHH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/FrontReact&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;background.image.plus&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/adam/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geoinvader/src/assets" />
+      <recent name="$PROJECT_DIR$/geoinvader/src/Menu" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eed3d45e-0a11-4678-96f3-384915dabe8b" name="Changes" comment="" />
+      <created>1708376615709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708376615709</updated>
+      <workItem from="1708376616790" duration="7278000" />
+      <workItem from="1708421252660" duration="5507000" />
+      <workItem from="1708432896087" duration="2508000" />
+      <workItem from="1708449235165" duration="29684000" />
+      <workItem from="1709127119091" duration="1200000" />
+      <workItem from="1709200784978" duration="668000" />
+      <workItem from="1709213540561" duration="4946000" />
+      <workItem from="1709584944428" duration="152498000" />
+      <workItem from="1710063760141" duration="21799000" />
+      <workItem from="1710107024022" duration="7760000" />
+      <workItem from="1710246056763" duration="4279000" />
+      <workItem from="1710265907725" duration="24505000" />
+      <workItem from="1710513552843" duration="1730000" />
+      <workItem from="1710516773421" duration="7136000" />
+      <workItem from="1711121548389" duration="62000" />
+      <workItem from="1711121644475" duration="750000" />
+      <workItem from="1711123454152" duration="349000" />
+      <workItem from="1711123814444" duration="1310000" />
+      <workItem from="1711228423369" duration="6231000" />
+      <workItem from="1711235720536" duration="18826000" />
+      <workItem from="1711305854005" duration="10596000" />
+      <workItem from="1711405796554" duration="1323000" />
+      <workItem from="1711629625133" duration="11787000" />
+      <workItem from="1711723912021" duration="12755000" />
+      <workItem from="1712220500565" duration="1225000" />
+      <workItem from="1712737464646" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+@GeoInvaderAPI_HostAddress = http://localhost:5291
+
+GET {{GeoInvaderAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

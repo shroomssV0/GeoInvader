@@ -1,0 +1,44 @@
+@startuml
+title Bicycle Recyclery Process Flow
+
+start
+
+:Log in to the system;
+:Scan Barcode 128 of bicycle;
+
+if (Bicycle registered?) then (yes)
+  :Display bicycle data;
+else (no)
+  :Register new bicycle;
+  :Assign new Barcode 128;
+endif
+
+:Perform complete diagnostic;
+note right
+  Assess usability of parts:
+  - Usable
+  - Broken
+  - Repairable
+  - Reusable
+end note
+
+:Log diagnostic results;
+
+if (Repairs needed?) then (yes)
+  :Schedule and perform repairs;
+  :Log repair actions and operator;
+else (no)
+  :Update bicycle status as 'No repairs needed';
+endif
+
+:Archive completed bicycle data;
+note left
+  This includes all diagnostics,
+  repairs, and operator details.
+end note
+
+:Generate and display repair reliability report;
+
+stop
+
+@enduml

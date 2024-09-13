@@ -1,0 +1,29 @@
+﻿version: '3.8'
+services:
+  api:
+    build: .
+    ports:
+      - "5291:8080"
+    environment:
+      - HOST=db
+      - PORT_API=5291
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DATABASE=geo-bdd
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    ports:
+      - "5433:5432" 
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=geo-bdd
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+

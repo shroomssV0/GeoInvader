@@ -1,0 +1,14 @@
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/bin/Debug/net8.0/GeoInvader
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/bin/Debug/net8.0/GeoInvader.deps.json
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/bin/Debug/net8.0/GeoInvader.runtimeconfig.json
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/bin/Debug/net8.0/GeoInvader.dll
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/bin/Debug/net8.0/GeoInvader.pdb
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.GeneratedMSBuildEditorConfig.editorconfig
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.AssemblyInfoInputs.cache
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.AssemblyInfo.cs
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.csproj.CoreCompileInputs.cache
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.dll
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/refint/GeoInvader.dll
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.pdb
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/GeoInvader.genruntimeconfig.cache
+/home/adam/Desktop/GitTest3/fr-4.0.2-geoinvaders/App/obj/Debug/net8.0/ref/GeoInvader.dll

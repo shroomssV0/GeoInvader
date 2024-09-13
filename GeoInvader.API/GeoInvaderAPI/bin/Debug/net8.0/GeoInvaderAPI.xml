@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeoInvaderAPI</name>
+    </assembly>
+    <members>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.GetForm">
+            <summary>
+            Retrieves all forms.
+            </summary>
+            <returns>A list of form DTOs.</returns>
+            <response code="200">Returns the list of form DTOs</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.GetForm(System.String)">
+            <summary>
+            Retrieves forms of a specific type.
+            </summary>
+            <param name="shapeType">The type of shape to retrieve.</param>
+            <returns>A list of form DTOs of the specified type.</returns>
+            <response code="200">Returns the list of form DTOs of the specified type</response>
+            <response code="404">If no forms of the specified type are found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.GetFormById(System.Int32)">
+            <summary>
+            Retrieves a form by its ID.
+            </summary>
+            <param name="id">The ID of the form to retrieve.</param>
+            <returns>The form DTO.</returns>
+            <response code="200">Returns the form DTO</response>
+            <response code="404">If no form with the specified ID is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.CreateForm(GeoInvaderAPI.Models.Core.FormDto)">
+             <summary>
+             Creates a new form.
+             </summary>
+             <remarks>
+             Sample requests:
+            
+             Cercle example:
+             
+              
+                 {
+                    "formType": "Cercle",
+                    "x": 5,
+                    "y": 3,
+                    "gameID": 1,
+                    "radius": 10
+                 }
+            
+             Rectangle example:
+             
+             
+                 {
+                     "formType": "Rectangle",
+                     "x": 10,
+                     "y": 20,
+                     "gameID": 1,
+                     "length": 15,
+                     "width": 10
+                 }
+            
+              Triangle example:
+             
+             
+                 {
+                     "formType": "Triangle",
+                     "x": 10,
+                     "y": 20,
+                     "gameID": 1,
+                     "base": 15,
+                     "height": 10
+                 }
+            
+             </remarks>
+             <param name="formDto">The form DTO to create.</param>
+             <returns>A newly created Form</returns>
+             <response code="201">Returns the newly created form</response>
+             <response code="400">If the form is null or invalid</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.GetFormsByGameId(System.Int32)">
+            <summary>
+            Retrieves all form by their gameId.
+            </summary>
+            <param name="gameId">The gameId of the forms to retrieve.</param>
+            <returns>All the shapes in a game.</returns>
+            <response code="200">Returns all the shapes in a game.</response>
+            <response code="404">If no forms with the specified gameId is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.UpdateForm(System.Int32,GeoInvaderAPI.Models.Core.FormDto)">
+            <summary>
+            Update a form by its ID.
+            </summary>
+            <param name="id">The ID of the form to uptade.</param>
+            <response code="200">Returns the form DTO</response>
+            <response code="404">If no form with the specified ID is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.FormController.DeleteForm(System.Int32)">
+            <summary>
+            Delete a form by its ID.
+            </summary>
+            <param name="id">The ID of the form to delete.</param>
+            <response code="200">The shapes with this gameId has been deleted</response>
+            <response code="404">If no form with the specified ID is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.GameController.GetAllGames">
+            <summary>
+            Fetches all games.
+            </summary>
+            <returns>A list of all games.</returns>
+            <response code="200">Returns the list of games</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.GameController.GetGame(System.Int32)">
+            <summary>
+            Fetches a specific game by ID, including its associated forms.
+            </summary>
+            <param name="id">The ID of the game to retrieve.</param>
+            <returns>The game matching the given ID, including its forms.</returns>
+            <response code="200">Returns the game matching the ID, including its forms</response>
+            <response code="404">If no game with the specified ID is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.GameController.CreateGame(GeoInvaderAPI.Models.Core.GameDTO)">
+             <summary>
+             Creates a new game.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Game
+                 {
+                     "difficultyLevel": 2,
+                     "currentScore": 0,
+                     "highScore": 100
+                 }
+             </remarks>
+             <param name="gameDto">The game data transfer object.</param>
+             <returns>A newly created game.</returns>
+             <response code="201">Returns the newly created game</response>
+             <response code="400">If the game is null or invalid</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.GameController.UpdateGame(System.Int32,GeoInvaderAPI.Models.Core.GameDTO)">
+            <summary>
+            Updates an existing game.
+            </summary>
+            <param name="id">The ID of the game to update.</param>
+            <param name="gameDto">The updated game data.</param>
+            <returns>No content.</returns>
+            <response code="204">Indicates that the game has been successfully updated</response>
+            <response code="404">If no game with the specified ID is found</response>
+        </member>
+        <member name="M:GeoInvaderAPI.Controllers.GameController.DeleteGame(System.Int32)">
+            <summary>
+            Deletes a game by ID.
+            </summary>
+            <param name="id">The ID of the game to delete.</param>
+            <returns>No content.</returns>
+            <response code="204">Indicates that the game has been successfully deleted</response>
+            <response code="404">If no game with the specified ID is found</response>
+        </member>
+        <member name="T:GeoInvaderAPI.Migrations.InitialCreationV2">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.InitialCreationV2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.InitialCreationV2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.InitialCreationV2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GeoInvaderAPI.Migrations.AjoutInfosFormes">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutInfosFormes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutInfosFormes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutInfosFormes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GeoInvaderAPI.Migrations.ModifAjoutEnumRole">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.ModifAjoutEnumRole.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.ModifAjoutEnumRole.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.ModifAjoutEnumRole.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:GeoInvaderAPI.Migrations.AjoutNameGame">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutNameGame.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutNameGame.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GeoInvaderAPI.Migrations.AjoutNameGame.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

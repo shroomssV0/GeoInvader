@@ -1,0 +1,14 @@
+.canvas-container {
+    position: relative;
+    background-color: black;
+}
+
+.canvas-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('assets/backgroundGeoinvader1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
