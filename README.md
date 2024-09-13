@@ -25,7 +25,7 @@ GeoInvader is a modern take on the classic **Space Invader** game, enhanced with
 
 ## Visuals
 
-![GeoInvader Screenshot](link_to_screenshot)
+![GeoInvader Screenshot](https://i.imgur.com/s0Lzlr9.png)
 
 ## Installation
 
